@@ -22,7 +22,8 @@ html,body{
 }
 
 #box-1{
-    background-color: rgb(124, 200, 225);
+    /* background-image: url("https://images.unsplash.com/photo-1559963110-71b394e7494d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQi0jEyMDd9&auto=format&fit=crop&w=675&q=80"); */
+    background: linear-gradient(to bottom right, rgba(92, 214, 255, 0.96), rgba(0, 0, 139, 0.626)),url(https://images.unsplash.com/photo-1559963110-71b394e7494d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQi0jEyMDd9&auto=format&fit=crop&w=675&q=80);
     width: 50%;
     height: 100%;
     border-radius: 25px;
