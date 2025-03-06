@@ -11,6 +11,7 @@ html,body{
     justify-content: center;
     align-items: center;
     background-color: rgb(6, 6, 37);
+    font-family: "Montserrat";
 }
 
 #container{
@@ -27,6 +28,9 @@ html,body{
     height: 100%;
     border-radius: 25px;
     transition: 0.4s;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 #box-1:hover{
@@ -34,12 +38,51 @@ html,body{
 }
 
 #timing{
-    padding: 23px 0px 5px 20px;
+    padding: 28px 0px 5px 25px;
 }
 
 p#day{
     font-size:25px;
+    font-weight: 800;
+    color: rgb(220, 213, 213);
+}
+
+p#date{
+    font-size:16px;
+    color:rgb(220, 213, 213);
+}
+
+#location{
+    width: 105px;
+    padding: 0px 0px 0px 25px;
+    display: flex;
+    justify-content:space-between;
+    color: rgb(220, 213, 213);
+}
+
+#location p{
+    font-size: 15px;
+}
+
+#bottom{
+    height: 50%;
+    padding-left: 7%;
+    color: rgb(220, 213, 213);
+}
+
+#bottom i{
+    font-size: 65px;
+    
+}
+
+#degree{
+    font-weight: 700;
+    font-size: 80px;
+}
+
+#weather{
     font-weight: bold;
+    font-size: 20px;
 }
 
 #box-2{
